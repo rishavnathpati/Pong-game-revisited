@@ -6,11 +6,13 @@ Open to suggestions. Planning to include some new features as well.
 For proper understanding follow the code with me. This is the code for Human vs Machine. 
 The code is pretty self-explanatory.
 
-# Importing turtle framework for our game and time class to manage time related functions
+# Importing turtle framework and time class
     import turtle
     import time
 
-# window_panel is the window panel in which the game will be played, title is set to "PONG by Rishav",resolution is set to 800x600, background colour is black. So thus we have created a blank black window with a title.
+# Creating window_panel 
+    # It is the window panel in which the game will be played, title is set to "PONG by Rishav",
+    #resolution is set to 800x600,background colour is black. So thus we have created a blank black window with a title.
     window_panel = turtle.Screen()
     window_panel.title()
     window_panel.bgcolor("black")
@@ -19,7 +21,7 @@ The code is pretty self-explanatory.
     score_a = 0
     score_b = 0
 
-# Making the left paddle. turtle.
+# Making the left paddle.
     paddle_a = turtle.Turtle()
     paddle_a.speed(0)
     paddle_a.shape("square")
