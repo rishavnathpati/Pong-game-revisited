@@ -10,8 +10,7 @@ The code is pretty self-explanatory.
 import turtle
 import time
 
-# window_panel is the window panel in which the game will be played, title is set to "PONG by Rishav"
-# resolution is set to 800x600, background colour is black. So thus we have created a blank black window with a title.
+# window_panel is the window panel in which the game will be played, title is set to "PONG by Rishav",resolution is set to 800x600, background colour is black. So thus we have created a blank black window with a title.
 window_panel = turtle.Screen()
 window_panel.title()
 window_panel.bgcolor("black")
