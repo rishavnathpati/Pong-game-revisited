@@ -115,7 +115,7 @@ while True:
     ball.sety(ball.ycor() + ball.dy)
 
     # Paddle B movement automation
-    if int(ball.ycor()) % 20 == 0:
+    if int(ball.ycor()) % 70 == 0 and int(ball.xcor()) > 20:
         paddle_b.sety(ball.ycor())
 
     # Border Checking
