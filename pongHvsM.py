@@ -40,6 +40,15 @@ ball.goto(0, 0)
 ball.dx = 0.1
 ball.dy = -0.1
 
+# Mid-Line
+mid_line =  turtle.Turtle()
+mid_line.speed(0)
+mid_line.shape("square")
+mid_line.color("white")
+mid_line.shapesize(100, .1)
+mid_line.penup()
+mid_line.goto(0,0)
+
 # Pen module
 pen = turtle.Turtle()
 pen.speed(0)
