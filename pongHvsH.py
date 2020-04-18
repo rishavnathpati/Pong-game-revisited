@@ -30,6 +30,15 @@ paddle_b.shapesize(5, 1)
 paddle_b.penup()
 paddle_b.goto(350, 0)
 
+# Mid-Line
+mid_line =  turtle.Turtle()
+mid_line.speed(0)
+mid_line.shape("square")
+mid_line.color("white")
+mid_line.shapesize(100, .1)
+mid_line.penup()
+mid_line.goto(0,0)
+
 # Ball
 ball = turtle.Turtle()
 ball.speed(0)
